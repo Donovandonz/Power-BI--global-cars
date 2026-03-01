@@ -291,4 +291,89 @@ The dataset contains car catalog information with the following fields:
 **Best Performance Value:** Ford (5.98 HP per $1,000)  
 **Best Overall Value:** Honda (lowest price, respectable performance)
 
+---
+
+### ⛽ Fuel Efficiency by Brand (KM/L)
+
+| Rank | Brand | Avg Fuel Efficiency (KM/L) | Efficiency Grade |
+|:----:|-------|:--------------------------:|------------------|
+| **1** 🥇 | **Tesla** | **N/A (Electric)** | 🟪 **ZERO EMISSIONS** |
+| **2** 🥈 | **Hyundai** | **20.97 KM/L** | 🟪 **MOST EFFICIENT** |
+| **3** 🥉 | **Honda** | **20.85 KM/L** | 🟪 VERY HIGH |
+| 4 | **Mercedes** | **20.39 KM/L** | 🟥 HIGH |
+| 5 | **Audi** | **20.08 KM/L** | 🟥 HIGH |
+| 6 | **Nissan** | **19.95 KM/L** | 🟨 AVERAGE |
+| 7 | **Toyota** | **19.94 KM/L** | 🟨 AVERAGE |
+| 8 | **Ford** | **19.89 KM/L** | 🟨 AVERAGE |
+| 9 | **KIA** | **18.77 KM/L** | 🟧 BELOW AVG |
+| 10 | **BMW** | **18.71 KM/L** | 🟧 BELOW AVG |
+
+
+### 📊 Fuel Efficiency Tier Analysis
+
+| Tier | KM/L Range | Brands | Count |
+|------|------------|--------|-------|
+| 🟪 **EXCELLENT** | 20.5+ KM/L | Hyundai, Honda | 2 |
+| 🟥 **HIGH** | 20.0-20.5 KM/L | Mercedes, Audi | 2 |
+| 🟨 **AVERAGE** | 19.5-20.0 KM/L | Nissan, Toyota, Ford | 3 |
+| 🟧 **BELOW AVG** | <19.0 KM/L | KIA, BMW | 2 |
+| 🟪 **ELECTRIC** | N/A | Tesla | 1 |
+
+
+### 📈 Efficiency vs Performance Trade-off
+
+| Brand | Fuel Efficiency | Horsepower | Trade-off |
+|-------|:---------------:|:----------:|-----------|
+| **Hyundai** | 20.97 KM/L (🥇) | 264 HP (😟) | 🟢 **Efficiency King** |
+| **Honda** | 20.85 KM/L (🥈) | 269 HP (😟) | 🟢 **Efficiency Focus** |
+| **Mercedes** | 20.39 KM/L (👍) | 337 HP (👍) | ⭐ **BEST BALANCE** |
+| **Toyota** | 19.94 KM/L (😐) | 366 HP (🥇) | 🟡 **Performance Biased** |
+| **BMW** | 18.71 KM/L (😟) | 274 HP (😐) | 🔴 **Low Efficiency** |
+
+
+### 🔍 Key Fuel Efficiency Insights
+
+- **Hyundai surprises** as the **most efficient** traditional brand at **20.97 KM/L**
+- **Honda** close second at **20.85 KM/L** - consistent efficiency leader
+- **Mercedes defies expectations** - luxury brand achieves **20.39 KM/L** (4th place)
+- **Audi** also impresses at **20.08 KM/L** - German efficiency improving
+- **Toyota** mid-pack at **19.94 KM/L** despite highest horsepower (366 HP)
+- **BMW** has **lowest efficiency** at **18.71 KM/L** - performance priority
+- **KIA** also struggles at **18.77 KM/L** - room for improvement
+
+---
+
+### 💡 Surprising Findings
+
+| Finding | Insight |
+|---------|---------|
+| **Hyundai > Honda** | Korean brand edges out Japanese efficiency leader |
+| **Mercedes > Toyota** | Luxury German brand more efficient than reliability king |
+| **Audi > Nissan** | Premium brand outperforms mainstream Japanese |
+| **BMW Last Place** | Performance focus comes at efficiency cost |
+| **Tesla Effect** | Electric eliminates efficiency concerns |
+
+---
+
+### 🏆 Efficiency Champions
+
+| Category | Brand | KM/L | Grade |
+|----------|-------|:----:|-------|
+| **Overall Champion** | Hyundai | 20.97 | 🟪 **GOLD** |
+| **Runner Up** | Honda | 20.85 | 🟪 **SILVER** |
+| **Luxury Leader** | Mercedes | 20.39 | 🟥 **BRONZE** |
+| **Most Improved** | Audi | 20.08 | 🟥 **HONORABLE** |
+| **Needs Improvement** | BMW | 18.71 | 🟧 **WATCH** |
+
+
+---
+
+## 🚗 Dashboard Overview
+
+-<a href="https://github.com/Donovandonz/Power-BI--global-cars/blob/main/Cars-dashboard.png">Cars-dashboard</a>
+
+<img width="1312" height="737" alt="Cars-dashboard" src="https://github.com/user-attachments/assets/79cb53f4-f8ad-4704-a540-429aeec33974" />
+
+
+
 
